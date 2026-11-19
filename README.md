@@ -23,3 +23,5 @@ Copy .env.example to .env.local. Set NEXT_PUBLIC_CONVEX_URL to your app's Convex
 ## Maintain the starter
 
 Run npm run typecheck and npm run build before publishing changes. To upgrade the SDK, update both tarball versions in package.json, run npm run setup:sdk and npm install, then commit the updated lockfile with the manifest.
+
+GitHub Actions publishes this starter from the templates/create-app-factory-app directory in App Factory after checking it against the released SDK.
